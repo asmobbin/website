@@ -25,6 +25,25 @@ var o_options = {
   <body>
     <h1>Hello, World!</h1>
    <a href="https://mobbin.com/">Find me at Mobbin!</a>
+    <div id="signup-embed"></div>
+<script>
+var o_signup_options = {
+  "id": "Outseta",
+  "domain": "asmobbin.outseta.com",
+  "load": "auth",
+  "auth": {
+    "widgetMode": "register",
+    "planFamilyUid": "amRxoE9J",
+    "skipPlanOptions": true,
+    "id": "signup_embed",
+    "mode": "embed",
+    "selector": "#signup-embed"
+  }
+};
+</script>
+<script src="https://cdn.outseta.com/outseta.min.js"
+        data-options="o_signup_options">
+</script>
     <script
   async
   crossorigin="anonymous"
